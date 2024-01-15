@@ -1,20 +1,21 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    font-weight: 500;
 }
 
-body {
+body{
     background-color: #f6f8fc;
 }
 
 .content {
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
+    padding: 1rem;    /*Baseado na Fonte do navegador?*/
     background-color: #fff;
+    height: 100vh;
+    width: 100vw;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px){
     .content {
         max-width: 992px;
         height: auto;
